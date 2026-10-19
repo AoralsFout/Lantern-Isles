@@ -1,0 +1,356 @@
+[
+  {
+    "name": "rock_a",
+    "file": "assets/models/rocks/rock_a.glb",
+    "preview": "assets/previews/rocks/rock_a.png",
+    "bounds": {
+      "min": [
+        -1.2,
+        -1.013,
+        0.0
+      ],
+      "max": [
+        1.2,
+        1.013,
+        1.66
+      ],
+      "size": [
+        2.4,
+        2.0259,
+        1.66
+      ]
+    },
+    "tris": 154,
+    "verts": 79,
+    "materials": [
+      "Stone",
+      "Moss",
+      "StoneCrevice",
+      "MossLight"
+    ],
+    "tags": [
+      "rock",
+      "boulder",
+      "moss",
+      "chapter1",
+      "mossgarden",
+      "landmark"
+    ],
+    "suggested_use": "苔庭·春眠的苔藓地标巨石，可作苔婆婆栖身石、路径端景或可攀爬大石。"
+  },
+  {
+    "name": "rock_b",
+    "file": "assets/models/rocks/rock_b.glb",
+    "preview": "assets/previews/rocks/rock_b.png",
+    "bounds": {
+      "min": [
+        -0.812,
+        -0.5752,
+        0.0
+      ],
+      "max": [
+        0.812,
+        0.5752,
+        1.5
+      ],
+      "size": [
+        1.6239,
+        1.1505,
+        1.5
+      ]
+    },
+    "tris": 164,
+    "verts": 90,
+    "materials": [
+      "Stone",
+      "StoneCut",
+      "StoneDark"
+    ],
+    "tags": [
+      "rock",
+      "weathered",
+      "sharp",
+      "multimesh",
+      "chapter2",
+      "canyon",
+      "reusable"
+    ],
+    "suggested_use": "琥珀沙海与霜枝谷的批量散布风化石，面数低，可用 MultiMesh 大量实例化。"
+  },
+  {
+    "name": "rock_c",
+    "file": "assets/models/rocks/rock_c.glb",
+    "preview": "assets/previews/rocks/rock_c.png",
+    "bounds": {
+      "min": [
+        -1.4,
+        -1.0781,
+        0.0
+      ],
+      "max": [
+        1.4,
+        1.0781,
+        0.825
+      ],
+      "size": [
+        2.8,
+        2.1562,
+        0.825
+      ]
+    },
+    "tris": 240,
+    "verts": 122,
+    "materials": [
+      "Stone",
+      "StrataWarm",
+      "StrataDark",
+      "Moss",
+      "MossLight"
+    ],
+    "tags": [
+      "rock",
+      "slab",
+      "stratified",
+      "standable",
+      "chapter1",
+      "chapter2"
+    ],
+    "suggested_use": "带层理的扁平岩板，顶面可站立，适合作为低台阶、观景点或路径边缘。"
+  },
+  {
+    "name": "cliff_spire",
+    "file": "assets/models/rocks/cliff_spire.glb",
+    "preview": "assets/previews/rocks/cliff_spire.png",
+    "bounds": {
+      "min": [
+        -2.2995,
+        -1.6662,
+        0.0
+      ],
+      "max": [
+        2.2995,
+        1.6662,
+        6.0
+      ],
+      "size": [
+        4.599,
+        3.3323,
+        6.0
+      ]
+    },
+    "tris": 896,
+    "verts": 470,
+    "materials": [
+      "Sandstone",
+      "SandstonePale",
+      "SandstoneDark",
+      "Weathered"
+    ],
+    "tags": [
+      "cliff",
+      "spire",
+      "landmark",
+      "chapter2",
+      "canyon",
+      "wind_eroded"
+    ],
+    "suggested_use": "琥珀沙海狭缝峡谷的 6m 风蚀岩柱地标，双柱剪影，可数根一组构成石柱阵。"
+  },
+  {
+    "name": "sandstone_arch",
+    "file": "assets/models/rocks/sandstone_arch.glb",
+    "preview": "assets/previews/rocks/sandstone_arch.png",
+    "bounds": {
+      "min": [
+        -3.5,
+        -1.1621,
+        0.0
+      ],
+      "max": [
+        3.5,
+        1.1621,
+        6.5
+      ],
+      "size": [
+        7.0,
+        2.3242,
+        6.5
+      ]
+    },
+    "tris": 324,
+    "verts": 216,
+    "materials": [
+      "SandstoneLight",
+      "Sandstone",
+      "SandstoneWarm",
+      "SandstoneDark"
+    ],
+    "tags": [
+      "arch",
+      "sandstone",
+      "landmark",
+      "chapter2",
+      "gateway",
+      "walkthrough"
+    ],
+    "suggested_use": "跨越路径的厚重砂岩拱门，形成穿行框景；拱洞沿 Blender Y 轴，正面朝 -Y。"
+  },
+  {
+    "name": "floating_rock",
+    "file": "assets/models/rocks/floating_rock.glb",
+    "preview": "assets/previews/rocks/floating_rock.png",
+    "bounds": {
+      "min": [
+        -2.0,
+        -1.4291,
+        0.0
+      ],
+      "max": [
+        2.0,
+        1.4291,
+        2.9908
+      ],
+      "size": [
+        4.0,
+        2.8583,
+        2.9908
+      ]
+    },
+    "tris": 464,
+    "verts": 320,
+    "materials": [
+      "Stone",
+      "StoneLight",
+      "StoneDark",
+      "Grass",
+      "Moss"
+    ],
+    "tags": [
+      "floating",
+      "sky_island",
+      "rock",
+      "chapter4",
+      "starfall",
+      "magic"
+    ],
+    "suggested_use": "星坠之穹的漂浮岩块，草苔顶面加撕裂岩锥；可在 Godot 中整体缓浮。"
+  },
+  {
+    "name": "crystal_cluster",
+    "file": "assets/models/rocks/crystal_cluster.glb",
+    "preview": "assets/previews/rocks/crystal_cluster.png",
+    "bounds": {
+      "min": [
+        -0.8879,
+        -0.7391,
+        0.0
+      ],
+      "max": [
+        0.8879,
+        0.7391,
+        2.2
+      ],
+      "size": [
+        1.7758,
+        1.4782,
+        2.2
+      ]
+    },
+    "tris": 448,
+    "verts": 242,
+    "materials": [
+      "Rock",
+      "RockEdge",
+      "CrystalShadow",
+      "Glow_Purple",
+      "Glow_Cyan"
+    ],
+    "tags": [
+      "crystal",
+      "glow",
+      "emission",
+      "chapter4",
+      "starfall",
+      "landmark"
+    ],
+    "suggested_use": "星坠之穹的紫青双色发光晶簇，可作夜光路标、镜湖岸饰或空间焦点。"
+  },
+  {
+    "name": "stump",
+    "file": "assets/models/rocks/stump.glb",
+    "preview": "assets/previews/rocks/stump.png",
+    "bounds": {
+      "min": [
+        -0.5542,
+        -0.4731,
+        0.0
+      ],
+      "max": [
+        0.5542,
+        0.4731,
+        1.0
+      ],
+      "size": [
+        1.1085,
+        0.9461,
+        1.0
+      ]
+    },
+    "tris": 270,
+    "verts": 143,
+    "materials": [
+      "Bark",
+      "WoodLight",
+      "WoodDark",
+      "Moss",
+      "BarkDark"
+    ],
+    "tags": [
+      "stump",
+      "wood",
+      "moss",
+      "chapter1",
+      "mossgarden",
+      "prop"
+    ],
+    "suggested_use": "苔庭·春眠的林间砍伐树桩，年轮顶面清楚，可作坐凳或路径点缀。"
+  },
+  {
+    "name": "driftwood",
+    "file": "assets/models/rocks/driftwood.glb",
+    "preview": "assets/previews/rocks/driftwood.png",
+    "bounds": {
+      "min": [
+        -1.1,
+        -0.4315,
+        0.0
+      ],
+      "max": [
+        1.1,
+        0.4315,
+        0.8324
+      ],
+      "size": [
+        2.2,
+        0.863,
+        0.8324
+      ]
+    },
+    "tris": 242,
+    "verts": 129,
+    "materials": [
+      "Driftwood",
+      "DriftwoodDark",
+      "DriftwoodCut"
+    ],
+    "tags": [
+      "driftwood",
+      "wood",
+      "bleached",
+      "chapter2",
+      "amberreach",
+      "waterside"
+    ],
+    "suggested_use": "沙海绿洲、水边或霜枝谷岸线的灰白浮木，可平放作坐凳、路障或构图引导线。"
+  }
+]

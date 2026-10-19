@@ -1,0 +1,92 @@
+[
+  {
+    "id": "keyart_title",
+    "out": "assets/art/keyart_title.png",
+    "size": "1536x1024",
+    "prompt": "Ultra-wide cinematic key art. A colossal ancient star whale with softly glowing constellations along its back glides above an endless sea of dawn clouds. Four small floating diorama islands drift around it on ribbons of warm lantern light: a jade spring garden, an amber desert with palms, a snowbound pine valley, and a violet starry ruin. The whale curves through the right two thirds; the left third is calm open sky and soft mist, leaving quiet negative space for a title. Palette of warm ivory, celadon green, amber, ice blue and deep indigo. Vast scale, quiet wonder, dawn, painterly, low-poly-inspired shapes."
+  },
+  {
+    "id": "chapter1_card",
+    "out": "assets/art/chapter1_card.png",
+    "size": "1536x1024",
+    "prompt": "A large terraced floating garden island seen from a high three-quarter view: mossy stone stairways wind between sculpted cliffs, cherry trees in blush bloom, a half-buried torii gate on a ridge, a koi pond with stepping stones, a tiny moss shrine, waterfalls spilling into mist, morning god rays, spring jade and blush palette, invitation to explore, no characters, no text."
+  },
+  {
+    "id": "chapter2_card",
+    "out": "assets/art/chapter2_card.png",
+    "size": "1536x1024",
+    "prompt": "A vast amber desert diorama island seen from a high three-quarter view: sculpted sandstone canyons with narrow slot passages opening onto a hidden palm oasis, canvas market tents, rope bridges, colossal bleached whale ribs half-buried in the dunes, low golden-hour sun, saffron terracotta and turquoise palette, sense of heat and adventure, no characters, no text."
+  },
+  {
+    "id": "chapter3_card",
+    "out": "assets/art/chapter3_card.png",
+    "size": "1536x1024",
+    "prompt": "A snowbound valley diorama island under blue hour, seen from a high three-quarter view: tiers of pine forest and frozen waterfalls, warm-lit wooden cabins, an old stone bridge over a steaming hot spring, aurora ribbons in the sky, a distant lighthouse on a crag, soft snowfall, ice blue, mint and ember-gold palette, no characters, no text."
+  },
+  {
+    "id": "chapter4_card",
+    "out": "assets/art/chapter4_card.png",
+    "size": "1536x1024",
+    "prompt": "A shattered night-sky diorama archipelago seen from a high three-quarter view: floating violet stone shards joined by bridges, bioluminescent cyan plants, a broken spiral lighthouse at the summit, a colossal whale constellation across the sky, gentle starfall, deep indigo, amethyst and antique gold palette, sacred and lonely, no characters, no text."
+  },
+  {
+    "id": "memory_1_firstlight",
+    "out": "assets/art/memory_1_firstlight.png",
+    "size": "1536x1024",
+    "prompt": "A young woman in a simple pale robe kneels beneath a blossoming cherry tree, cupping a flame as she lights a small paper lantern. Above the branches, the faint silhouette of a whale calf swims through a starry sky. Tender, intimate, first-memory mood, spring night, warm lantern against cool teal shadows, storybook vignette."
+  },
+  {
+    "id": "memory_2_torii",
+    "out": "assets/art/memory_2_torii.png",
+    "size": "1536x1024",
+    "prompt": "An ancient moss-covered torii gate on a high cliff at dawn, hundreds of tiny paper lanterns strung through cherry trees, a stone stairway disappearing into mist below, no people, sacred quiet atmosphere, jade and blush palette, gentle god rays."
+  },
+  {
+    "id": "memory_3_caravan",
+    "out": "assets/art/memory_3_caravan.png",
+    "size": "1536x1024",
+    "prompt": "A small caravan of three lantern-carrying travelers and a camel crosses towering amber dunes at night. Above them hangs a constellation shaped like a whale's eye. Warm firelight and tiny lanterns against a cool violet sky, bootprints in sand, intimate scale under vastness, storybook vignette."
+  },
+  {
+    "id": "memory_4_ribcage",
+    "out": "assets/art/memory_4_ribcage.png",
+    "size": "1536x1024",
+    "prompt": "Inside the colossal bleached ribcage of a whale half-buried in desert sand, travelers rest around a small fire; paper lanterns hang from the ribs, dunes and stars visible through the bones. Intimate warm firelight inside cool blue shadows, awe and sanctuary, storybook vignette."
+  },
+  {
+    "id": "memory_5_waiting",
+    "out": "assets/art/memory_5_waiting.png",
+    "size": "1536x1024",
+    "prompt": "A small child in a round knit hat presses both hands and forehead against a frost-covered window, a single warm lamp glowing behind them. Outside: a snowy village, pine trees and faint aurora. Longing and warmth, blue hour with amber window light, storybook vignette."
+  },
+  {
+    "id": "memory_6_storm",
+    "out": "assets/art/memory_6_storm.png",
+    "size": "1536x1024",
+    "prompt": "A lone lighthouse keeper in a heavy coat climbs a snowy cliff path carrying a lantern through a blizzard. The lighthouse beam cuts through driving snow above. A tiny figure against a vast blue storm, warm gold lantern the only warm note, heroic and bittersweet, storybook vignette."
+  },
+  {
+    "id": "memory_7_reunion",
+    "out": "assets/art/memory_7_reunion.png",
+    "size": "1536x1024",
+    "prompt": "A luminous young woman made of soft golden light and a tiny cloaked lantern spirit float among drifting fragments of four seasons, the spirit offering her a small paper lantern. A colossal whale silhouette curves behind them in the dark. Reunion, tenderness, quiet forgiveness, deep indigo and warm gold, storybook vignette."
+  },
+  {
+    "id": "ending_dawn",
+    "out": "assets/art/ending_dawn.png",
+    "size": "1536x1024",
+    "prompt": "Dawn over an endless cloud sea: a colossal star whale rises into the sky, its back carrying four small diorama islands, two tiny warm lights standing together on its head. Stars fade into peach and celadon morning light, a few lanterns drifting upward, hopeful and expansive ending illustration, storybook."
+  },
+  {
+    "id": "paper_texture",
+    "out": "assets/art/paper_texture.png",
+    "size": "1024x1024",
+    "prompt": "A seamless subtle warm ivory handmade paper texture, fine fibers, faint deckle grain, flat even lighting, no objects, no border, no shadow, no vignette, very low contrast, tileable."
+  },
+  {
+    "id": "memory_8_lanterns",
+    "out": "assets/art/memory_8_lanterns.png",
+    "size": "1536x1024",
+    "prompt": "A vast dark sea at night, thousands of tiny paper lanterns floating upward toward a colossal sleeping star whale curled in the sky above. Gold lantern light, deep teal water, soft indigo clouds, drifting petals of light, sacred and hopeful, storybook illustration, wide cinematic composition."
+  }
+]

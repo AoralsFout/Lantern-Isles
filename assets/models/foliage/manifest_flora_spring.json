@@ -1,0 +1,445 @@
+{
+  "batch": "flora_spring",
+  "title": "Mossgarden / Spring Sleep + Starfall / Homecoming Night",
+  "generator": "tools/blender/flora_spring.py",
+  "blender": "4.2.9 LTS",
+  "units": "meters",
+  "up_axis": "Blender +Z (exported glTF +Y with export_yup)",
+  "forward": "-Y in Blender (Godot +Z after glTF import)",
+  "origin": "bottom-centre, ground at z=0 (koi: body centre)",
+  "coordinate_system": {
+    "up": "Z",
+    "forward": "-Y",
+    "note": "bounds are Blender-space metres before glTF Y-up conversion"
+  },
+  "asset_count": 10,
+  "total_tris": 6818,
+  "assets": [
+    {
+      "name": "cherry_tree_a",
+      "file": "assets/models/foliage/cherry_tree_a.glb",
+      "preview": "assets/previews/flora_spring/cherry_tree_a.png",
+      "bounds": {
+        "min": [
+          -3.5132,
+          -2.9063,
+          0.0
+        ],
+        "max": [
+          3.5132,
+          2.9063,
+          8.0503
+        ],
+        "size": [
+          7.0265,
+          5.8125,
+          8.0503
+        ]
+      },
+      "tris": 1066,
+      "verts": 655,
+      "materials": [
+        "Bark",
+        "Blossom_Pink",
+        "Blossom_Pale",
+        "Blossom_Deep"
+      ],
+      "tags": [
+        "tree",
+        "cherry",
+        "blossom",
+        "spring",
+        "mossgarden",
+        "landmark",
+        "hero"
+      ],
+      "suggested_use": "Hero cherry tree for the Mossgarden terrace / the first-lantern memory under the blossoms; canopy shades the koi pond shore.",
+      "chapter": "mossgarden",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "cherry_tree_b",
+      "file": "assets/models/foliage/cherry_tree_b.glb",
+      "preview": "assets/previews/flora_spring/cherry_tree_b.png",
+      "bounds": {
+        "min": [
+          -2.2778,
+          -1.9271,
+          0.0
+        ],
+        "max": [
+          2.2778,
+          1.9271,
+          5.1588
+        ],
+        "size": [
+          4.5556,
+          3.8542,
+          5.1588
+        ]
+      },
+      "tris": 584,
+      "verts": 374,
+      "materials": [
+        "Bark",
+        "Blossom_Pale",
+        "Blossom_Pink",
+        "Blossom_Deep"
+      ],
+      "tags": [
+        "tree",
+        "cherry",
+        "blossom",
+        "spring",
+        "mossgarden",
+        "slanted"
+      ],
+      "suggested_use": "Secondary wind-bent cherry for grove edges and stair overlooks; pairs with cherry_tree_a for variety.",
+      "chapter": "mossgarden",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "bamboo_cluster",
+      "file": "assets/models/foliage/bamboo_cluster.glb",
+      "preview": "assets/previews/flora_spring/bamboo_cluster.png",
+      "bounds": {
+        "min": [
+          -0.8228,
+          -0.7201,
+          0.0
+        ],
+        "max": [
+          0.8228,
+          0.7201,
+          5.5
+        ],
+        "size": [
+          1.6456,
+          1.4403,
+          5.5
+        ]
+      },
+      "tris": 1434,
+      "verts": 1356,
+      "materials": [
+        "Bamboo_Stalk",
+        "Bamboo_Node",
+        "Leaf_Bamboo"
+      ],
+      "tags": [
+        "bamboo",
+        "cluster",
+        "spring",
+        "mossgarden",
+        "foliage",
+        "wind"
+      ],
+      "suggested_use": "Bamboo screen along the moss garden path and behind the broken torii; gently wind-swayed via the Leaf shader.",
+      "chapter": "mossgarden",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "azalea_bush",
+      "file": "assets/models/foliage/azalea_bush.glb",
+      "preview": "assets/previews/flora_spring/azalea_bush.png",
+      "bounds": {
+        "min": [
+          -0.8752,
+          -0.5602,
+          0.0
+        ],
+        "max": [
+          0.8752,
+          0.5602,
+          1.2607
+        ],
+        "size": [
+          1.7504,
+          1.1204,
+          1.2607
+        ]
+      },
+      "tris": 1188,
+      "verts": 1154,
+      "materials": [
+        "Leaf_Azalea",
+        "Leaf_Azalea_Mid",
+        "Leaf_Azalea_Light",
+        "Blossom_Azalea",
+        "Blossom_Azalea_Center",
+        "Blossom_Azalea_Pale",
+        "Blossom_Azalea_Deep"
+      ],
+      "tags": [
+        "bush",
+        "shrub",
+        "flower",
+        "spring",
+        "mossgarden",
+        "detail"
+      ],
+      "suggested_use": "Path-side azalea clumps and terrace planting; instant pink accents near stone steps.",
+      "chapter": "mossgarden",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "fern",
+      "file": "assets/models/foliage/fern.glb",
+      "preview": "assets/previews/flora_spring/fern.png",
+      "bounds": {
+        "min": [
+          -0.6288,
+          -0.698,
+          0.0
+        ],
+        "max": [
+          0.6288,
+          0.698,
+          0.7606
+        ],
+        "size": [
+          1.2576,
+          1.3961,
+          0.7606
+        ]
+      },
+      "tris": 620,
+      "verts": 936,
+      "materials": [
+        "Leaf_Fern_Dark",
+        "Leaf_Fern",
+        "Leaf_Fern_Tip"
+      ],
+      "tags": [
+        "fern",
+        "groundcover",
+        "spring",
+        "mossgarden",
+        "foliage"
+      ],
+      "suggested_use": "Damp groundcover around stone basins, cave mouth and shaded terraces.",
+      "chapter": "mossgarden",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "grass_tuft",
+      "file": "assets/models/foliage/grass_tuft.glb",
+      "preview": "assets/previews/flora_spring/grass_tuft.png",
+      "bounds": {
+        "min": [
+          -0.2327,
+          -0.1983,
+          0.0
+        ],
+        "max": [
+          0.2327,
+          0.1983,
+          0.3832
+        ],
+        "size": [
+          0.4653,
+          0.3966,
+          0.3832
+        ]
+      },
+      "tris": 36,
+      "verts": 48,
+      "materials": [
+        "Grass_Base",
+        "Grass_Blade_Light",
+        "Grass_Blade"
+      ],
+      "tags": [
+        "grass",
+        "tuft",
+        "groundcover",
+        "multimesh",
+        "spring",
+        "mossgarden"
+      ],
+      "suggested_use": "MultiMesh ground scatter (36 tris) across moss terraces; scale/rotate per instance for variation.",
+      "chapter": "mossgarden",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "lilypad",
+      "file": "assets/models/foliage/lilypad.glb",
+      "preview": "assets/previews/flora_spring/lilypad.png",
+      "bounds": {
+        "min": [
+          -0.2918,
+          -0.2569,
+          0.0
+        ],
+        "max": [
+          0.2918,
+          0.2569,
+          0.212
+        ],
+        "size": [
+          0.5837,
+          0.5139,
+          0.212
+        ]
+      },
+      "tris": 182,
+      "verts": 167,
+      "materials": [
+        "Leaf_Lilypad",
+        "Leaf_Lilypad_Light",
+        "Leaf_Lily_Stem",
+        "Blossom_Lily",
+        "Blossom_Lily_Pink",
+        "Blossom_Lily_Center"
+      ],
+      "tags": [
+        "water",
+        "lilypad",
+        "flower",
+        "koi-pond",
+        "spring",
+        "mossgarden"
+      ],
+      "suggested_use": "Koi pond surface dressing; place at water height, pads lie at z~0 and the flower rises 0.15 m.",
+      "chapter": "mossgarden",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "glow_tree",
+      "file": "assets/models/foliage/glow_tree.glb",
+      "preview": "assets/previews/flora_spring/glow_tree.png",
+      "bounds": {
+        "min": [
+          -2.8316,
+          -2.5888,
+          0.0
+        ],
+        "max": [
+          2.8316,
+          2.5888,
+          6.7734
+        ],
+        "size": [
+          5.6633,
+          5.1776,
+          6.7734
+        ]
+      },
+      "tris": 996,
+      "verts": 574,
+      "materials": [
+        "Bark_Glow",
+        "Leaf_Glow_Teal",
+        "Leaf_Glow_Gold",
+        "Glow_Crystal_Teal",
+        "Glow_Crystal_Gold"
+      ],
+      "tags": [
+        "tree",
+        "glow",
+        "emissive",
+        "starfall",
+        "night",
+        "landmark"
+      ],
+      "suggested_use": "Bioluminescent landmark tree for the floating Starfall isles; teal/gold crowns read as local light sources.",
+      "chapter": "starfall",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "glow_mushroom",
+      "file": "assets/models/foliage/glow_mushroom.glb",
+      "preview": "assets/previews/flora_spring/glow_mushroom.png",
+      "bounds": {
+        "min": [
+          -0.4512,
+          -0.3863,
+          0.0
+        ],
+        "max": [
+          0.4512,
+          0.3863,
+          0.9043
+        ],
+        "size": [
+          0.9025,
+          0.7726,
+          0.9043
+        ]
+      },
+      "tris": 592,
+      "verts": 330,
+      "materials": [
+        "Stem_Ivory",
+        "Glow_Mushroom_Rim",
+        "Glow_Mushroom_Cap",
+        "Glow_Mushroom_Gills",
+        "Glow_Mushroom_Cap_Pale",
+        "Glow_Spore",
+        "Glow_Spore_Gold"
+      ],
+      "tags": [
+        "mushroom",
+        "glow",
+        "emissive",
+        "starfall",
+        "cluster",
+        "detail"
+      ],
+      "suggested_use": "Glowing fungus clusters along Starfall rocks and mirror-lake banks; ivory stems, cyan caps at emission 2.5.",
+      "chapter": "starfall",
+      "pivot": "bottom_center",
+      "forward": "-Y"
+    },
+    {
+      "name": "koi",
+      "file": "assets/models/foliage/koi.glb",
+      "preview": "assets/previews/flora_spring/koi.png",
+      "bounds": {
+        "min": [
+          -0.092,
+          -0.25,
+          -0.081
+        ],
+        "max": [
+          0.092,
+          0.25,
+          0.081
+        ],
+        "size": [
+          0.184,
+          0.5,
+          0.162
+        ]
+      },
+      "tris": 120,
+      "verts": 79,
+      "materials": [
+        "Koi_White",
+        "Koi_Orange",
+        "Koi_Fin",
+        "Koi_Ink"
+      ],
+      "tags": [
+        "fish",
+        "koi",
+        "creature",
+        "water",
+        "mossgarden",
+        "animated-by-code"
+      ],
+      "suggested_use": "Koi pond swimmer; path/animate in code. Forward is Blender -Y (Godot +Z), origin at body centre, 0.5 m long.",
+      "chapter": "mossgarden",
+      "pivot": "body_center",
+      "forward": "-Y"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "batch": "architecture",
+  "version": 1,
+  "unit": "meter",
+  "forward_axis_blender": "-Y",
+  "forward_axis_godot": "+Z",
+  "origin": "footprint centre on ground plane (bridges: deck centre, deck top z=0)",
+  "materials": "Principled BSDF, no textures; emissive material is named 'Glow'",
+  "asset_count": 10,
+  "total_tris": 15944,
+  "assets": [
+    {
+      "name": "torii_gate",
+      "file": "assets/models/architecture/torii_gate.glb",
+      "bounds": {
+        "min": [
+          -2.505,
+          -0.514,
+          0.0
+        ],
+        "max": [
+          2.505,
+          0.432,
+          5.5
+        ],
+        "size": [
+          5.01,
+          0.946,
+          5.5
+        ]
+      },
+      "tris": 816,
+      "tags": [
+        "mossgarden",
+        "landmark",
+        "gate",
+        "torii",
+        "vermillion"
+      ],
+      "suggested_use": "苔庭地标：穿过式鸟居，行人在本地 Y 轴方向从门下通过。"
+    },
+    {
+      "name": "stone_lantern",
+      "file": "assets/models/architecture/stone_lantern.glb",
+      "bounds": {
+        "min": [
+          -0.575,
+          -0.531,
+          0.0
+        ],
+        "max": [
+          0.48,
+          0.555,
+          2.4
+        ],
+        "size": [
+          1.056,
+          1.086,
+          2.4
+        ]
+      },
+      "tris": 662,
+      "tags": [
+        "mossgarden",
+        "shrine",
+        "lantern",
+        "glow",
+        "stone"
+      ],
+      "suggested_use": "苔庭/神社参道的暖光石灯笼，可重复摆放。"
+    },
+    {
+      "name": "moss_shrine",
+      "file": "assets/models/architecture/moss_shrine.glb",
+      "bounds": {
+        "min": [
+          -1.3,
+          -1.517,
+          0.0
+        ],
+        "max": [
+          1.3,
+          1.15,
+          3.185
+        ],
+        "size": [
+          2.6,
+          2.667,
+          3.185
+        ]
+      },
+      "tris": 1484,
+      "tags": [
+        "mossgarden",
+        "shrine",
+        "glow",
+        "moss",
+        "wood"
+      ],
+      "suggested_use": "苔庭深处的小神社，纸门透光，作为祈祷点/记忆触发点。"
+    },
+    {
+      "name": "wooden_cabin",
+      "file": "assets/models/architecture/wooden_cabin.glb",
+      "bounds": {
+        "min": [
+          -3.0,
+          -2.25,
+          0.0
+        ],
+        "max": [
+          3.0,
+          2.25,
+          4.0
+        ],
+        "size": [
+          6.0,
+          4.5,
+          4.0
+        ]
+      },
+      "tris": 3036,
+      "tags": [
+        "frostvale",
+        "house",
+        "cabin",
+        "snow",
+        "glow"
+      ],
+      "suggested_use": "霜枝谷雪村木屋，暖窗+石烟囱，门廊朝向 -Y。"
+    },
+    {
+      "name": "market_tent",
+      "file": "assets/models/architecture/market_tent.glb",
+      "bounds": {
+        "min": [
+          -2.5,
+          -2.0,
+          0.0
+        ],
+        "max": [
+          2.5,
+          2.0,
+          3.2
+        ],
+        "size": [
+          5.0,
+          4.0,
+          3.2
+        ]
+      },
+      "tris": 2066,
+      "tags": [
+        "amberreach",
+        "market",
+        "tent",
+        "fabric",
+        "glow"
+      ],
+      "suggested_use": "琥珀沙海绿洲集市的条纹帐篷摊位，正面开放朝向 -Y。"
+    },
+    {
+      "name": "rope_bridge",
+      "file": "assets/models/architecture/rope_bridge.glb",
+      "bounds": {
+        "min": [
+          -1.201,
+          -4.999,
+          -0.265
+        ],
+        "max": [
+          1.2,
+          4.998,
+          1.16
+        ],
+        "size": [
+          2.402,
+          9.996,
+          1.425
+        ]
+      },
+      "tris": 2508,
+      "tags": [
+        "amberreach",
+        "bridge",
+        "rope",
+        "desert",
+        "crossing"
+      ],
+      "suggested_use": "沙海峡谷绳桥，跨度 10 m，沿 Z 轴，桥面顶面 z=0，游戏侧加碰撞。"
+    },
+    {
+      "name": "stone_bridge",
+      "file": "assets/models/architecture/stone_bridge.glb",
+      "bounds": {
+        "min": [
+          -1.5,
+          -4.5,
+          -2.5
+        ],
+        "max": [
+          1.5,
+          4.5,
+          0.73
+        ],
+        "size": [
+          3.0,
+          9.0,
+          3.23
+        ]
+      },
+      "tris": 1824,
+      "tags": [
+        "frostvale",
+        "bridge",
+        "stone",
+        "arch",
+        "snow"
+      ],
+      "suggested_use": "霜枝谷石拱桥，跨度 9 m，沿 Z 轴，桥面顶面 z=0，下方拱到 -2.5 m。"
+    },
+    {
+      "name": "ruin_pillar",
+      "file": "assets/models/architecture/ruin_pillar.glb",
+      "bounds": {
+        "min": [
+          -0.578,
+          -0.675,
+          0.0
+        ],
+        "max": [
+          1.183,
+          0.578,
+          3.5
+        ],
+        "size": [
+          1.761,
+          1.253,
+          3.5
+        ]
+      },
+      "tris": 1108,
+      "tags": [
+        "mossgarden",
+        "ruin",
+        "pillar",
+        "stone",
+        "vines"
+      ],
+      "suggested_use": "苔庭遗迹的断裂石柱，可与断墙/断鸟居组合成废墟。"
+    },
+    {
+      "name": "signpost",
+      "file": "assets/models/architecture/signpost.glb",
+      "bounds": {
+        "min": [
+          -0.726,
+          -0.377,
+          0.0
+        ],
+        "max": [
+          0.904,
+          0.438,
+          2.0
+        ],
+        "size": [
+          1.63,
+          0.815,
+          2.0
+        ]
+      },
+      "tris": 986,
+      "tags": [
+        "amberreach",
+        "village",
+        "signpost",
+        "wood",
+        "blank"
+      ],
+      "suggested_use": "无字木指路牌，空白箭头牌，麻绳绑扎；路口/营地指示物。"
+    },
+    {
+      "name": "well",
+      "file": "assets/models/architecture/well.glb",
+      "bounds": {
+        "min": [
+          -1.226,
+          -1.224,
+          0.0
+        ],
+        "max": [
+          1.226,
+          1.224,
+          2.0
+        ],
+        "size": [
+          2.453,
+          2.449,
+          2.0
+        ]
+      },
+      "tris": 1454,
+      "tags": [
+        "amberreach",
+        "village",
+        "well",
+        "stone",
+        "water"
+      ],
+      "suggested_use": "石砌水井，木架绳桶，可放在绿洲集市或霜枝谷村庄。"
+    }
+  ]
+}

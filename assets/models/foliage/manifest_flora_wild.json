@@ -1,0 +1,373 @@
+{
+  "batch": "flora_wild",
+  "units": "meters",
+  "up_axis": "Blender +Z (exported glTF +Y with export_yup)",
+  "forward": "-Y in Blender (Godot +Z after glTF import)",
+  "origin": "bottom-centre, ground at z=0",
+  "asset_count": 10,
+  "total_tris": 7450,
+  "assets": [
+    {
+      "name": "palm_tree",
+      "file": "assets/models/foliage/palm_tree.glb",
+      "chapter": "amberreach",
+      "bounds": {
+        "min": [
+          -2.4902,
+          -3.5013,
+          0.0
+        ],
+        "max": [
+          3.4239,
+          2.1296,
+          7.5
+        ],
+        "size": [
+          5.9142,
+          5.6309,
+          7.5
+        ]
+      },
+      "tris": 1011,
+      "materials": [
+        "Bark_Palm",
+        "Leaf_Palm",
+        "Coconut"
+      ],
+      "tags": [
+        "amberreach",
+        "oasis",
+        "palm",
+        "tree",
+        "landmark"
+      ],
+      "suggested_use": "琥珀沙海绿洲的主景棕榈，放在水洼边或集市入口，可旋转出 3 个变体。"
+    },
+    {
+      "name": "desert_shrub",
+      "file": "assets/models/foliage/desert_shrub.glb",
+      "chapter": "amberreach",
+      "bounds": {
+        "min": [
+          -0.5035,
+          -0.7446,
+          0.0
+        ],
+        "max": [
+          0.7159,
+          0.7472,
+          0.9
+        ],
+        "size": [
+          1.2195,
+          1.4918,
+          0.9
+        ]
+      },
+      "tris": 1267,
+      "materials": [
+        "Bark_Shrub",
+        "Leaf_Dry"
+      ],
+      "tags": [
+        "amberreach",
+        "desert",
+        "shrub",
+        "dry",
+        "filler"
+      ],
+      "suggested_use": "沙海绿洲外围、沙丘脚下的中景填充灌木，成组摆放时旋转缩放即可。"
+    },
+    {
+      "name": "cactus",
+      "file": "assets/models/foliage/cactus.glb",
+      "chapter": "amberreach",
+      "bounds": {
+        "min": [
+          -0.2299,
+          -0.6222,
+          0.0
+        ],
+        "max": [
+          0.6787,
+          0.228,
+          3.0
+        ],
+        "size": [
+          0.9086,
+          0.8502,
+          3.0
+        ]
+      },
+      "tris": 404,
+      "materials": [
+        "Cactus_Body",
+        "Cactus_Ridge"
+      ],
+      "tags": [
+        "amberreach",
+        "desert",
+        "cactus",
+        "landmark"
+      ],
+      "suggested_use": "沙海峡谷口与商道旁的柱状仙人掌，可作路标或绿洲边界的主景。"
+    },
+    {
+      "name": "reeds",
+      "file": "assets/models/foliage/reeds.glb",
+      "chapter": "amberreach",
+      "bounds": {
+        "min": [
+          -0.2489,
+          -0.2515,
+          0.0
+        ],
+        "max": [
+          0.2384,
+          0.2179,
+          1.4
+        ],
+        "size": [
+          0.4873,
+          0.4694,
+          1.4
+        ]
+      },
+      "tris": 420,
+      "materials": [
+        "Grass_Reed_Dark",
+        "Grass_Reed",
+        "Grass_Cattail",
+        "Cattail_Head"
+      ],
+      "tags": [
+        "amberreach",
+        "oasis",
+        "water",
+        "grass",
+        "detail"
+      ],
+      "suggested_use": "绿洲水边、浅水与湿地边缘的细节点缀，沿水线成排布置。"
+    },
+    {
+      "name": "pine_tree_a",
+      "file": "assets/models/foliage/pine_tree_a.glb",
+      "chapter": "frostvale",
+      "bounds": {
+        "min": [
+          -2.4072,
+          -2.7349,
+          0.0
+        ],
+        "max": [
+          2.6559,
+          2.6963,
+          10.0
+        ],
+        "size": [
+          5.0632,
+          5.4313,
+          10.0
+        ]
+      },
+      "tris": 1275,
+      "materials": [
+        "Bark_Pine",
+        "Leaf_Pine_Light",
+        "Snow",
+        "Leaf_Pine",
+        "Snow_Deep"
+      ],
+      "tags": [
+        "frostvale",
+        "conifer",
+        "snow",
+        "tree",
+        "landmark"
+      ],
+      "suggested_use": "霜枝谷雪松林的主景树，用于雪村、冻瀑与冰湖周边，少量即可撑起天际线。"
+    },
+    {
+      "name": "pine_tree_b",
+      "file": "assets/models/foliage/pine_tree_b.glb",
+      "chapter": "frostvale",
+      "bounds": {
+        "min": [
+          -1.2342,
+          -1.5058,
+          0.0
+        ],
+        "max": [
+          1.4629,
+          1.0989,
+          6.0
+        ],
+        "size": [
+          2.6971,
+          2.6047,
+          6.0
+        ]
+      },
+      "tris": 996,
+      "materials": [
+        "Bark_Pine",
+        "Leaf_Pine_Light",
+        "Snow",
+        "Leaf_Pine",
+        "Snow_Deep"
+      ],
+      "tags": [
+        "frostvale",
+        "conifer",
+        "snow",
+        "tree",
+        "filler"
+      ],
+      "suggested_use": "倾斜雪松，用于雪松林边缘、坡地与石桥两侧，与 pine_tree_a 混植避免重复。"
+    },
+    {
+      "name": "snow_bush",
+      "file": "assets/models/foliage/snow_bush.glb",
+      "chapter": "frostvale",
+      "bounds": {
+        "min": [
+          -0.5629,
+          -0.4932,
+          0.0
+        ],
+        "max": [
+          0.5561,
+          0.5251,
+          0.9
+        ],
+        "size": [
+          1.119,
+          1.0183,
+          0.9
+        ]
+      },
+      "tris": 441,
+      "materials": [
+        "Leaf_SnowBush",
+        "Snow",
+        "Snow_Deep"
+      ],
+      "tags": [
+        "frostvale",
+        "snow",
+        "shrub",
+        "filler"
+      ],
+      "suggested_use": "雪村屋檐下、路边与雪松林间的低矮雪灌木，可半埋进雪坡。"
+    },
+    {
+      "name": "bare_tree",
+      "file": "assets/models/foliage/bare_tree.glb",
+      "chapter": "frostvale",
+      "bounds": {
+        "min": [
+          -1.1822,
+          -1.4129,
+          0.0
+        ],
+        "max": [
+          1.6539,
+          1.3659,
+          4.5
+        ],
+        "size": [
+          2.8362,
+          2.7788,
+          4.5
+        ]
+      },
+      "tris": 1182,
+      "materials": [
+        "Bark_Bare",
+        "Bark_Bare_Dark",
+        "Snow",
+        "Snow_Deep"
+      ],
+      "tags": [
+        "frostvale",
+        "dead_tree",
+        "snow",
+        "tree",
+        "detail"
+      ],
+      "suggested_use": "霜枝谷枯树剪影，放在温泉、冰湖与悬崖边，增强荒寒与等待感。"
+    },
+    {
+      "name": "ice_crystal",
+      "file": "assets/models/foliage/ice_crystal.glb",
+      "chapter": "frostvale",
+      "bounds": {
+        "min": [
+          -0.4896,
+          -0.5201,
+          0.0
+        ],
+        "max": [
+          0.5067,
+          0.4966,
+          1.5
+        ],
+        "size": [
+          0.9963,
+          1.0167,
+          1.5
+        ]
+      },
+      "tris": 394,
+      "materials": [
+        "Snow",
+        "Ice",
+        "Ice_Deep",
+        "Snow_Deep"
+      ],
+      "tags": [
+        "frostvale",
+        "ice",
+        "crystal",
+        "snow",
+        "detail"
+      ],
+      "suggested_use": "冻瀑、冰湖与温泉边的发光冰晶簇，可作采集点或低强度冷光源。"
+    },
+    {
+      "name": "glow_grass",
+      "file": "assets/models/foliage/glow_grass.glb",
+      "chapter": "starfall",
+      "bounds": {
+        "min": [
+          -0.2373,
+          -0.2154,
+          0.0
+        ],
+        "max": [
+          0.2765,
+          0.2478,
+          0.4
+        ],
+        "size": [
+          0.5138,
+          0.4632,
+          0.4
+        ]
+      },
+      "tris": 60,
+      "materials": [
+        "Grass_Base",
+        "Grass_Glow"
+      ],
+      "tags": [
+        "starfall",
+        "glow",
+        "grass",
+        "emissive",
+        "detail"
+      ],
+      "suggested_use": "星坠之穹镜湖与虹桥边的发光草簇，作为夜色中的低位补光点，可大量散布。"
+    }
+  ]
+}

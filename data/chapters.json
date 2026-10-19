@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ch1",
+    "num": 1,
+    "title": "苔庭 · 春眠",
+    "en": "Mossgarden",
+    "subtitle": "第一梦 · 初见",
+    "poem": "花开的时候，世界轻轻翻了个身。",
+    "objective": "收集余烬，点亮山脊上的残灯",
+    "world": "res://data/worlds/ch1.json",
+    "card": "res://assets/art/chapter1_card.png",
+    "music": "spring",
+    "ambience": "spring_amb",
+    "required": 3,
+    "total": 5,
+    "intro": [
+      "你在一阵花香里醒来。",
+      "怀里的纸灯只剩最后一粒火种，山脊上有一盏快要熄灭的残灯。",
+      "这里是星鲸的梦。灯灭了，梦就会沉下去。"
+    ],
+    "memories": [
+      {
+        "id": "memory_1_firstlight",
+        "title": "第一盏灯",
+        "art": "res://assets/art/memory_1_firstlight.png",
+        "caption": "樱花树下，有人替一只迷路的鲸崽点亮了纸灯。",
+        "quote": "火苗很小，可它照亮了一整只鲸。"
+      },
+      {
+        "id": "memory_2_torii",
+        "title": "鸟居与千灯",
+        "art": "res://assets/art/memory_2_torii.png",
+        "caption": "苔庭的旧鸟居下，曾经挂满过一千盏谢灯。",
+        "quote": "每一盏灯，都是一个被记得的名字。"
+      }
+    ],
+    "epilogue_title": "第一盏心灯",
+    "epilogue": "残灯亮起时，你听见很远的地方传来一声鲸鸣。\n像是一个沉睡很久的人，在梦里翻了个身。",
+    "beacon_hint": "山脊的残灯，还认得回家的路。"
+  },
+  {
+    "id": "ch2",
+    "num": 2,
+    "title": "琥珀沙海 · 长夏",
+    "en": "Amberreach",
+    "subtitle": "第二梦 · 远行",
+    "poem": "路没有尽头，但灯会记得每一个脚印。",
+    "objective": "穿过峡口与鲸骨，点亮沙海高处的残灯",
+    "world": "res://data/worlds/ch2.json",
+    "card": "res://assets/art/chapter2_card.png",
+    "music": "desert",
+    "ambience": "desert_amb",
+    "required": 3,
+    "total": 5,
+    "intro": [
+      "第二段梦，是一片没有尽头的琥珀色。",
+      "风把商队的铃声吹散，只剩半埋在沙里的鲸骨。",
+      "有人曾在沙暴里点亮一盏灯，让整支商队看见了回家的方向。"
+    ],
+    "memories": [
+      {
+        "id": "memory_3_caravan",
+        "title": "沙海鲸眼",
+        "art": "res://assets/art/memory_3_caravan.png",
+        "caption": "沙暴那夜，天上睁开一只鲸的眼。",
+        "quote": "再走一程吧。灯还亮着，就不算走丢。"
+      },
+      {
+        "id": "memory_4_ribcage",
+        "title": "鲸骨客栈",
+        "art": "res://assets/art/memory_4_ribcage.png",
+        "caption": "旅人在鲸骨里烤火，把风铃挂在最高的那根肋骨上。",
+        "quote": "骨头会唱歌，风会记得调子。"
+      }
+    ],
+    "epilogue_title": "第二盏心灯",
+    "epilogue": "沙海尽头，第二盏灯亮了。\n你忽然明白，守灯人不是没有回来——她把自己留在了路上。",
+    "beacon_hint": "沙海高崖上，灯还等着最后一粒火。"
+  },
+  {
+    "id": "ch3",
+    "num": 3,
+    "title": "霜枝谷 · 静冬",
+    "en": "Frostvale",
+    "subtitle": "第三梦 · 守候",
+    "poem": "雪落在灯上，像一句迟到了很久的回答。",
+    "objective": "越过冻溪与冰瀑，点亮断塔山脊的残灯",
+    "world": "res://data/worlds/ch3.json",
+    "card": "res://assets/art/chapter3_card.png",
+    "music": "winter",
+    "ambience": "winter_amb",
+    "required": 3,
+    "total": 5,
+    "intro": [
+      "第三段梦，冷得像一口没有回声的井。",
+      "雪村里每一扇窗都亮着，只有一扇窗，一直留给没有回来的人。",
+      "灯塔在山上。它已经很多年没有亮过了。"
+    ],
+    "memories": [
+      {
+        "id": "memory_5_waiting",
+        "title": "窗边的灯",
+        "art": "res://assets/art/memory_5_waiting.png",
+        "caption": "小满把窗上的霜擦了一遍又一遍，灯就能照得远一点。",
+        "quote": "雪停的时候，姐姐就会回来。"
+      },
+      {
+        "id": "memory_6_storm",
+        "title": "暴风雪里的灯",
+        "art": "res://assets/art/memory_6_storm.png",
+        "caption": "她把最后一点灯油倒进灯里，把自己的名字留在了风里。",
+        "quote": "灯亮着，船就有岸。"
+      }
+    ],
+    "epilogue_title": "第三盏心灯",
+    "epilogue": "灯塔亮起的那刻，雪停了。\n窗边的小满终于等到一个影子。她知道那不是姐姐，可她还是笑了。",
+    "beacon_hint": "断塔的灯，已经等了很久。"
+  },
+  {
+    "id": "ch4",
+    "num": 4,
+    "title": "星坠之穹 · 归夜",
+    "en": "Starfall",
+    "subtitle": "第四梦 · 归途",
+    "poem": "我把名字还给你，你把黎明还给我们。",
+    "objective": "穿过碎裂群岛，在断塔之巅点亮心灯",
+    "world": "res://data/worlds/ch4.json",
+    "card": "res://assets/art/chapter4_card.png",
+    "music": "night",
+    "ambience": "night_amb",
+    "required": 3,
+    "total": 5,
+    "intro": [
+      "最后一段梦，没有地面，只有漂浮的星屑和断裂的桥。",
+      "星鲸把所有舍不得忘记的东西，都藏在了这里。",
+      "塔顶有一个人，已经等了你很久。"
+    ],
+    "memories": [
+      {
+        "id": "memory_7_reunion",
+        "title": "把名字还给你",
+        "art": "res://assets/art/memory_7_reunion.png",
+        "caption": "她把自己点成了灯芯，只为了守住这四段梦。",
+        "quote": "我找到你了。"
+      },
+      {
+        "id": "memory_8_lanterns",
+        "title": "万灯归海",
+        "art": "res://assets/art/memory_8_lanterns.png",
+        "caption": "所有被点亮的灯，最后都会回到同一片海。",
+        "quote": "万灯归海，一灯回家。"
+      }
+    ],
+    "epilogue_title": "心灯",
+    "epilogue": "四盏灯亮起，星鲸睁开眼。\n你听见它说：原来，我一直都记得回家的路。",
+    "beacon_hint": "塔顶的心灯，等的不是火，是一个名字。"
+  }
+]

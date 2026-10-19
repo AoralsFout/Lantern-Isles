@@ -1,0 +1,287 @@
+{
+  "batch": "relics",
+  "description": "Narrative relics and wonder landmarks for Lantern Isles (flat-shaded low poly).",
+  "unit": "metre",
+  "up_axis_blender": "Z",
+  "forward_blender": "-Y",
+  "count": 9,
+  "total_tris": 14622,
+  "contact_sheet": "assets/previews/relics/contact_sheet.png",
+  "assets": [
+    {
+      "name": "beacon_lantern",
+      "file": "assets/models/relics/beacon_lantern.glb",
+      "bounds": {
+        "min": [
+          -1.649,
+          -1.733,
+          0.0
+        ],
+        "max": [
+          1.548,
+          1.582,
+          5.5
+        ],
+        "size": [
+          3.197,
+          3.315,
+          5.5
+        ]
+      },
+      "tris": 2260,
+      "tags": [
+        "landmark",
+        "chapter_goal",
+        "lantern",
+        "stone",
+        "moss",
+        "gold",
+        "emissive"
+      ],
+      "suggested_use": "Chapter-goal beacon on a ridge; light it when the chapter goal completes, add a real light inside the paper shade."
+    },
+    {
+      "name": "paper_lantern",
+      "file": "assets/models/relics/paper_lantern.glb",
+      "bounds": {
+        "min": [
+          -0.212,
+          -0.228,
+          -0.302
+        ],
+        "max": [
+          0.212,
+          0.228,
+          0.295
+        ],
+        "size": [
+          0.425,
+          0.456,
+          0.598
+        ]
+      },
+      "tris": 560,
+      "tags": [
+        "collectible",
+        "lantern",
+        "paper",
+        "warm_glow",
+        "floating"
+      ],
+      "suggested_use": "Guiding paper lantern; floats in place, bob and rotate slowly, attach a small warm light."
+    },
+    {
+      "name": "ember_collectible",
+      "file": "assets/models/relics/ember_collectible.glb",
+      "bounds": {
+        "min": [
+          -0.19,
+          -0.194,
+          -0.2
+        ],
+        "max": [
+          0.19,
+          0.194,
+          0.19
+        ],
+        "size": [
+          0.38,
+          0.388,
+          0.39
+        ]
+      },
+      "tris": 308,
+      "tags": [
+        "collectible",
+        "ember",
+        "crystal",
+        "emissive",
+        "floating"
+      ],
+      "suggested_use": "Collectible ember; hover, spin and pulse, pickup burst at the player's chest height."
+    },
+    {
+      "name": "memory_shard",
+      "file": "assets/models/relics/memory_shard.glb",
+      "bounds": {
+        "min": [
+          -0.858,
+          -0.565,
+          0.0
+        ],
+        "max": [
+          0.779,
+          0.485,
+          1.844
+        ],
+        "size": [
+          1.637,
+          1.049,
+          1.844
+        ]
+      },
+      "tris": 1148,
+      "tags": [
+        "interactive",
+        "memory",
+        "standing_stone",
+        "glow",
+        "moss",
+        "vines"
+      ],
+      "suggested_use": "Memory interaction prop; prompt the memory panel when the player is near the glowing leaf."
+    },
+    {
+      "name": "lighthouse",
+      "file": "assets/models/relics/lighthouse.glb",
+      "bounds": {
+        "min": [
+          -4.49,
+          -4.17,
+          0.0
+        ],
+        "max": [
+          4.641,
+          4.634,
+          16.007
+        ],
+        "size": [
+          9.13,
+          8.804,
+          16.007
+        ]
+      },
+      "tris": 3918,
+      "tags": [
+        "hero_landmark",
+        "lighthouse",
+        "ruin",
+        "spiral",
+        "broken",
+        "warm_light",
+        "coastal"
+      ],
+      "suggested_use": "Chapter 3/4 hero landmark; use as the distant silhouette and the climbable finale tower, light the lamp room on completion."
+    },
+    {
+      "name": "whale_ribs",
+      "file": "assets/models/relics/whale_ribs.glb",
+      "bounds": {
+        "min": [
+          -6.7,
+          -7.005,
+          0.0
+        ],
+        "max": [
+          6.7,
+          7.005,
+          8.044
+        ],
+        "size": [
+          13.4,
+          14.01,
+          8.044
+        ]
+      },
+      "tris": 3916,
+      "tags": [
+        "hero_landmark",
+        "whale_bone",
+        "desert",
+        "arcade",
+        "sand",
+        "walk_through"
+      ],
+      "suggested_use": "Amberreach desert landmark / whale-bone inn; walk and ride through the archway, camp at its feet."
+    },
+    {
+      "name": "sky_whale",
+      "file": "assets/models/relics/sky_whale.glb",
+      "bounds": {
+        "min": [
+          -12.15,
+          -29.35,
+          -8.2
+        ],
+        "max": [
+          12.15,
+          30.2,
+          6.4
+        ],
+        "size": [
+          24.3,
+          59.55,
+          14.6
+        ]
+      },
+      "tris": 1834,
+      "tags": [
+        "hero_landmark",
+        "sky_whale",
+        "star_constellation",
+        "emissive",
+        "creature",
+        "night"
+      ],
+      "suggested_use": "Skybox-scale hero creature drifting above the isles; slow bob and tail sway, constellation readable from below."
+    },
+    {
+      "name": "cloud_puff",
+      "file": "assets/models/relics/cloud_puff.glb",
+      "bounds": {
+        "min": [
+          -4.983,
+          -3.207,
+          -2.746
+        ],
+        "max": [
+          4.983,
+          3.207,
+          2.746
+        ],
+        "size": [
+          9.966,
+          6.414,
+          5.491
+        ]
+      },
+      "tris": 560,
+      "tags": [
+        "sky",
+        "cloud",
+        "modular",
+        "environment"
+      ],
+      "suggested_use": "Sky and island-base filler; scale and duplicate to build cloud seas around the isles."
+    },
+    {
+      "name": "bird",
+      "file": "assets/models/relics/bird.glb",
+      "bounds": {
+        "min": [
+          -0.3,
+          -0.138,
+          -0.025
+        ],
+        "max": [
+          0.3,
+          0.205,
+          0.053
+        ],
+        "size": [
+          0.6,
+          0.343,
+          0.078
+        ]
+      },
+      "tris": 118,
+      "tags": [
+        "ambient",
+        "bird",
+        "silhouette",
+        "sky"
+      ],
+      "suggested_use": "Ambient flying silhouette; spawn small flocks and move them on simple looping paths."
+    }
+  ]
+}
